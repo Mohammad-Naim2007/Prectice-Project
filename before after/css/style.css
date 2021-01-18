@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+/* common css ends */
+
+
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #ebeb2a;
+    font-size: 30px;
+    margin: 100px 500px;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    width: 0%;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    transform: translate(-50%, -50%);
+    transition: all linear 0.4s;
+}
+.btn::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0%;
+    width: 93%;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+    transform: translate(-50%, -50%);
+    transition: all linear 0.4s;
+}
+.btn:hover:before{
+    width: 100%;
+}
+.btn:hover:after{
+    height: 100%;
+}  
+

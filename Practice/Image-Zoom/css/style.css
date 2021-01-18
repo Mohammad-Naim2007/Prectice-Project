@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+/* common css ends */
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    background: #2fafa0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image{
+    width: 250px;
+    height: 250px;
+    background: url(../Image/bgone.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+
+.image:hover{
+    background-size: 150%;
+    background-position: center;
+}
+/* section ends */

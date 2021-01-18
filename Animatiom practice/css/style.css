@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* common css ends */
+
+.progress_bar{
+    margin: 60px;
+}
+.progress_bar ul li{
+    width: 500px;
+    height: 30px;
+    border: 1px solid #222;
+    border-radius: 15px;
+    margin-top: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+.progress_bar ul li:first-child{
+    border-color: #34495e;
+}
+.progress_bar ul li:first-child::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background: #34495e;
+    border-radius: 15px;
+    animation: progress1 1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes progress1{
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+.progress_bar ul li:nth-child(2){
+    border-color: #f39c12;
+}
+.progress_bar ul li:nth-child(2)::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38%;
+    height: 100%;
+    background: #f39c12;
+    border-radius: 15px;
+    animation: progress2 1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes progress2{
+    0%{
+        width: 38%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.progress_bar ul li:nth-child(3){
+    border-color: #ff9ff3;
+}
+.progress_bar ul li:nth-child(3)::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27%;
+    height: 100%;
+    background: #ff9ff3;
+    border-radius: 15px;
+    animation: progress3 1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes progress3{
+    0%{
+        width: 27%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+.progress_bar ul li:nth-child(4){
+    border-color: #5f27cd;
+}
+.progress_bar ul li:nth-child(4)::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55%;
+    height: 100%;
+    background: #5f27cd;
+    border-radius: 15px;
+    animation: progress4 1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes progress4{
+    0%{
+        width: 55%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.progress_bar ul li:last-child{
+    border-color: #b921e6;
+}
+
+.progress_bar ul li:last-child::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34%;
+    height: 100%;
+    background: #b921e6;
+    border-radius: 15px;
+    animation: progress5 1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes progress5{
+    0%{
+        width: 34%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

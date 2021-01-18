@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* common css ends */
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(75deg, rgb(26, 44, 121) 10%, rgb(232, 5, 102));
+}
+.menu .sub_menu{
+    width: 1160px;
+    height: 70px;
+    margin: 0 auto;
+}
+.menu .sub_menu .logo{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.menu .sub_menu .logo img{
+    margin-top: 17px;
+}
+.menu .sub_menu .menu_list{
+    width: 960px;
+    height: 70px;
+    float: left;
+}
+.menu .sub_menu .menu_list ul{
+    list-style-type: none;
+    float: right;
+}
+.menu .sub_menu .menu_list ul li{
+    float: left;
+    position: relative;
+}
+.menu .sub_menu .menu_list ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 0 20px;
+    line-height: 70px;
+    transition: all linear 0.4s;
+}
+.menu .sub_menu .menu_list ul li:hover > a{
+    color: #d80486;
+}
+
+.menu .sub_menu .menu_list ul li ul{
+    position: absolute;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+    border-radius: 5px;
+}
+.menu .sub_menu .menu_list ul li:hover > ul{
+    opacity: 1;
+    top: 70px;
+    visibility: visible;
+}
+
+
+.menu .sub_menu .menu_list ul li ul li{
+    white-space: nowrap;
+    float: none;
+    background: #888585;
+}
+.menu .sub_menu .menu_list ul li ul li a{
+    color: #6348fa;
+    line-height: 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: #888585;
+    
+}
+.menu .sub_menu .menu_list ul li ul li:hover > a{
+    background: #e2059e;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px #ddd; 
+}
+
+.menu .sub_menu .menu_list ul li ul li ul{
+    position: absolute;
+    left: 100%;
+}
+.menu .sub_menu .menu_list ul li ul li:hover ul{
+    top: 100%;
+}
+
+.menu .sub_menu .menu_list ul li ul li .active{
+    background: #4218f2;
+    color: #9206ac;
+}
+
+/* menubar ends */
+
+.benner{
+    width: 100%;
+    height: 700px;
+    background: url(../Image/benner);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.benner .sum_benner{
+    width: 1160px;
+    height: 700px;
+    background: #189f4c;
+    margin: 0 auto;
+}
+.benner .sum_benner .benner_content{
+    width: 700px;
+    height: 700px;
+    background: #5308cb;
+}
+.benner .sum_benner .benner_spasce{
+    width: 700px;
+    height: 700px;
+    background: #5308cb;
+}
+/* benner ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
